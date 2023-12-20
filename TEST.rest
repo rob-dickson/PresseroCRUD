@@ -1,0 +1,95 @@
+
+##################################### Authentication and Validation ##################################
+
+############################## https://admin.chi.v6.pressero.com/docs/api/ ###########################
+
+###
+POST https://adminc.pro-matters.com/api/V2/Authentication
+Content-Type: application/json
+
+{
+    "UserName": "rsdAdmin",
+    "Password": "1234",
+    "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+    "ConsumerID": "1807430a-9b0c-4a10-8ad8-341616d058fa"
+}
+
+###
+GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{BC1F0000-569F-0050-44F1-08DC00CC7F3B}/Validate
+
+
+
+
+##################################### CRUD STATEMENTS#################################################
+
+#******************* Orders - Get Order Details
+    # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Details
+###
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Details HTTP/1.1
+Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+
+
+#******************* Orders - Get Order Items
+    # https://admin.chi.v6.pressero.com/api/V2/Orders/{OrderNumber}/Items
+
+###
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Items HTTP/1.1
+Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+
+
+#******************* Orders - Get Order Payments
+    # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Payments
+
+###
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Payments HTTP/1.1
+Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+
+
+#******************* Orders - Get Order Shipments
+    # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Shipments
+
+###
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Shipments HTTP/1.1
+Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+
+
+#******************* Orders - Get Order CheckoutForm
+    # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/CheckoutForm
+
+###
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/CheckoutForm HTTP/1.1
+Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+
+
+#******************* Orders - Import Orders (xlsx file)
+#******************* HTTP/1.1 200 OK
+#******************* {
+#******************* "ImportID": "00000000-0000-0000-0000-000000000000",
+#******************* "Message": "No File Found", 
+#******************* "Importing": false,
+#******************* "FileName": null,
+#******************* "StartDate": null
+#******************* }
+    # https://admin.chi.v6.pressero.com/api/v2/orders/import/
+
+###
+POST https://admin.chi.v6.pressero.com/api/v2/orders/import/ HTTP/1.1
+Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+
+
+#******************* 
+
+
+#******************* 
+
+
+#******************* 
+
+
+#******************* 
+
+
+#******************* 
+
+
+#******************* 
