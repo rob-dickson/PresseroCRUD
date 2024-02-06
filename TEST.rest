@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{BC1F0000-569F-0050-44F1-08DC00CC7F3B}/Validate
+GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{64230000-569F-0050-2F30-08DC276201C4}/Validate
 
 
 
@@ -25,8 +25,8 @@ GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{BC1F0000-569F-0050-
 #******************* Orders - Get Order Details
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Details
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Details HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/1000/Details HTTP/1.1
+Authorization: token 64230000-569F-0050-2F30-08DC276201C4
 
 
 #******************* Orders - Get Order Items
@@ -34,7 +34,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Items HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 64230000-569F-0050-2F30-08DC276201C4
 
 
 #******************* Orders - Get Order Payments
@@ -42,7 +42,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Payments HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 64230000-569F-0050-2F30-08DC276201C4
 
 
 #******************* Orders - Get Order Shipments
@@ -50,7 +50,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Shipments HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 64230000-569F-0050-2F30-08DC276201C4
 
 
 #******************* Orders - Get Order CheckoutForm
@@ -58,7 +58,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/CheckoutForm HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 64230000-569F-0050-2F30-08DC276201C4
 
 
 #******************* Orders - Import Orders (xlsx file)
@@ -74,7 +74,7 @@ Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
 
 ###
 POST https://admin.chi.v6.pressero.com/api/v2/orders/import/ HTTP/1.1
-Authorization: token BC1F0000-569F-0050-44F1-08DC00CC7F3B
+Authorization: token 64230000-569F-0050-2F30-08DC276201C4
 
 
 #******************* 
