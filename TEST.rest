@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{B8210000-569F-0050-2845-08DC2CCA9BC5}/Validate
+GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{EC260000-569F-0050-0A6C-08DC2F1949D8}/Validate
 
 
 
@@ -25,8 +25,8 @@ GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{B8210000-569F-0050-
 #******************* Orders - Get Order Details
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Details
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Orders/1055/Details HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/857/Details HTTP/1.1
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 
 #******************* Orders - Get Order Items
@@ -34,7 +34,7 @@ Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/1011/Items HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 
 #******************* Orders - Get Order Payments
@@ -42,15 +42,15 @@ Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Payments HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 
 #******************* Orders - Get Order Shipments
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Shipments
 
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Orders/1055/Shipments HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+GET https://admin.chi.v6.pressero.com/api/V2/Orders/857/Shipments HTTP/1.1
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 
 #******************* Orders - Get Order CheckoutForm
@@ -58,7 +58,7 @@ Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/CheckoutForm HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 
 #******************* Orders - Import Orders (xlsx file)
@@ -74,24 +74,24 @@ Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
 
 ###
 POST https://admin.chi.v6.pressero.com/api/v2/orders/import/ HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 
 #******************* 
 ###
 Get https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/users HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 #******************* 
 ###
 GET https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/users/f0170000-569f-0050-264c-08dc1ceed00f  HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 
 
 #******************* 
 ###
 GET https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/Addressbook/f0170000-569f-0050-264c-08dc1ceed00f  HTTP/1.1
-Authorization: token B8210000-569F-0050-2845-08DC2CCA9BC5
+Authorization: token EC260000-569F-0050-0A6C-08DC2F1949D8
 #******************* 
 
 
