@@ -1,0 +1,139 @@
+HTTP/1.1 200 OK
+cache-control: no-cache
+pragma: no-cache
+content-type: application/json; charset=utf-8
+expires: -1
+presserorequestid: 582c0000-569f-0050-d027-08dc2ccb355a
+x-content-type-options: nosniff
+server: WWW Server/1.1
+date: Tue, 13 Feb 2024 19:37:25 GMT
+content-length: 3113
+strict-transport-security: max-age=31536000; includeSubDomains;
+content-security-policy-report-only: default-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'; connect-src 'self' *.google-analytics.com col.site24x7rum.com; style-src-elem 'self' 'unsafe-inline' fonts.googleapis.com *.bootstrapcdn.com; script-src-elem 'self' 'unsafe-inline' *.googletagmanager.com *.googleapis.com *.site24x7rum.com *.google-analytics.com *.bootstrapcdn.com; img-src 'self'; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com
+connection: close
+
+{
+  "OrderId": "ac260000-569f-0050-4cc7-08dc2cca3e32",
+  "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+  "OrderDate": "2024-02-13T19:32:27.16",
+  "PrinterOrderId": 1055,
+  "IsActive": true,
+  "IsReleased": true,
+  "IsShipComplete": false,
+  "IsPayComplete": false,
+  "SubTotal": 235.1900,
+  "Tax1": 0.0000,
+  "Tax2": 0.0000,
+  "Tax3": 0.0000,
+  "Vat": 0.0000,
+  "PromoDiscount": 0.0000,
+  "Total": 251.5000,
+  "ShouldGroupShipments": false,
+  "PoNumber": null,
+  "Notes": "TEST ORDER",
+  "Shipping": 16.3100,
+  "ReqShipDate": null,
+  "CheckoutSitePaymentMethodId": "e2763d0a-530b-4545-a02e-36f8427cef62",
+  "IsSavedForLater": false,
+  "NumberOfOrderItems": 2,
+  "PendingOrderId": null,
+  "User": {
+    "UserId": "f0170000-569f-0050-264c-08dc1ceed00f",
+    "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+    "SiteId": "423ddb0a-3f94-4a6d-85fb-4317b1c7f743",
+    "UserType": "C",
+    "Email": "mikep@alphagraphics.com",
+    "IsActive": true,
+    "FirstName": "Vlad",
+    "LastName": "Lishafai",
+    "MiddleName": null,
+    "MisId": "1198",
+    "Title": null,
+    "Login": null,
+    "Phone": null,
+    "CellPhone": null,
+    "Fax": null,
+    "Culture": "en-US",
+    "TZ": "Mountain Standard Time",
+    "ReceiveNotifications": false,
+    "ReceiveAllNotifications": false,
+    "LastLoginDate": "2024-02-13T19:22:29.677",
+    "CreatedDate": "2024-01-24T15:11:59.82",
+    "IsGuestUser": false
+  },
+  "BillToAddress": {
+    "UserId": null,
+    "AddressId": "301e0000-569f-0050-063d-08dc2c229071",
+    "DefaultShipMethod": null,
+    "Business": "Mystery PI",
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Title": null,
+    "Address1": "123 N Mystery Ln.",
+    "Address2": null,
+    "Address3": "OU812",
+    "City": "Mysteryville",
+    "StateProvince": "AL",
+    "Postal": "12345",
+    "Country": "US",
+    "Phone": "1234567890",
+    "Fax": null,
+    "Email": "john@mystery.com"
+  },
+  "BillToLocation": null,
+  "Location": null,
+  "CheckoutSitePaymentMethod": {
+    "SitePaymentMethodId": "e2763d0a-530b-4545-a02e-36f8427cef62",
+    "Provider": "Nonintegrated",
+    "ServiceName": "Misc",
+    "MethodName": "Test",
+    "IsActive": true,
+    "CustomSiteMessage": null,
+    "LongDescription": null,
+    "UseRange": false,
+    "MinTotal": 0.00,
+    "MaxTotal": 0.00,
+    "SortOrder": 3,
+    "DisplayProviderError": false,
+    "CustomCheckoutErrorMessage": null,
+    "Implementor": "Nonintegrated",
+    "AvailableToAllGroups": false,
+    "SiteStoreId": "423ddb0a-3f94-4a6d-85fb-4317b1c7f743",
+    "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+    "SubscriberPaymentMethodId": "22f60654-0b3e-4b1e-b078-7593eae0bb2c"
+  },
+  "SiteId": "423ddb0a-3f94-4a6d-85fb-4317b1c7f743",
+  "SiteMISID": "1198",
+  "UserId": "f0170000-569f-0050-264c-08dc1ceed00f",
+  "LocationId": null,
+  "BillToAddressId": "301e0000-569f-0050-063d-08dc2c229071",
+  "BudgetId": null,
+  "Promos": [],
+  "FormFields": [],
+  "Payments": [],
+  "Shipments": [
+    {
+      "ShipmentId": "d8190000-569f-0050-2916-08dc2ccb08a2",
+      "OrderId": "ac260000-569f-0050-4cc7-08dc2cca3e32",
+      "OrderItemId": "ac260000-569f-0050-d4aa-08dc2cca3e5a",
+      "ShipDate": "2024-02-13T19:35:00",
+      "ShipMethod": "Local Pickup - AlphaGraphics Orem, UT",
+      "ShipTracking": "N12O34N56S78E",
+      "ShipCost": 10.0000,
+      "IntegrationID": null,
+      "PackageNumber": 1
+    },
+    {
+      "ShipmentId": "4c290000-569f-0050-ce3a-08dc2ccb2527",
+      "OrderId": "ac260000-569f-0050-4cc7-08dc2cca3e32",
+      "OrderItemId": "b02d0000-569f-0050-a0e5-08dc2cca5674",
+      "ShipDate": "2024-02-13T19:36:00",
+      "ShipMethod": "UPS Ground (1-5 Business Days)",
+      "ShipTracking": "A12L34L56S78O",
+      "ShipCost": 5.0000,
+      "IntegrationID": null,
+      "PackageNumber": 2
+    }
+  ],
+  "GiftCertificates": []
+}

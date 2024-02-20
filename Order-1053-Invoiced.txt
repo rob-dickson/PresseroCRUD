@@ -1,0 +1,116 @@
+HTTP/1.1 200 OK
+cache-control: no-cache
+pragma: no-cache
+content-type: application/json; charset=utf-8
+expires: -1
+presserorequestid: 8c260000-569f-0050-6ce4-08dc2cadc6c8
+x-content-type-options: nosniff
+server: WWW Server/1.1
+date: Tue, 13 Feb 2024 16:06:45 GMT
+content-length: 2448
+strict-transport-security: max-age=31536000; includeSubDomains;
+content-security-policy-report-only: default-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'; connect-src 'self' *.google-analytics.com col.site24x7rum.com; style-src-elem 'self' 'unsafe-inline' fonts.googleapis.com *.bootstrapcdn.com; script-src-elem 'self' 'unsafe-inline' *.googletagmanager.com *.googleapis.com *.site24x7rum.com *.google-analytics.com *.bootstrapcdn.com; img-src 'self'; font-src 'self' fonts.gstatic.com maxcdn.bootstrapcdn.com
+connection: close
+
+{
+  "OrderId": "14100000-569f-0050-5595-08dc2c01fd4d",
+  "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+  "OrderDate": "2024-02-12T21:38:18.113",
+  "PrinterOrderId": 1053,
+  "IsActive": true,
+  "IsReleased": true,
+  "IsShipComplete": false,
+  "IsPayComplete": false,
+  "SubTotal": 79.0000,
+  "Tax1": 0.0000,
+  "Tax2": 0.0000,
+  "Tax3": 0.0000,
+  "Vat": 0.0000,
+  "PromoDiscount": 0.0000,
+  "Total": 84.0000,
+  "ShouldGroupShipments": false,
+  "PoNumber": "",
+  "Notes": "",
+  "Shipping": 5.0000,
+  "ReqShipDate": null,
+  "CheckoutSitePaymentMethodId": "71e47b99-2ee3-4779-ae01-8f8792d1abb5",
+  "IsSavedForLater": false,
+  "NumberOfOrderItems": 1,
+  "PendingOrderId": null,
+  "User": {
+    "UserId": "08140000-569f-0050-ae0e-08dc065a03c2",
+    "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+    "SiteId": "5ec9f95d-a041-446c-b06b-60e13e1ffe01",
+    "UserType": "C",
+    "Email": "hljensen@silverstar.net",
+    "IsActive": true,
+    "FirstName": "Hailey",
+    "LastName": "Jensen",
+    "MiddleName": "",
+    "MisId": "",
+    "Title": "",
+    "Login": null,
+    "Phone": "3078806493",
+    "CellPhone": null,
+    "Fax": null,
+    "Culture": "en-US",
+    "TZ": "Mountain Standard Time",
+    "ReceiveNotifications": true,
+    "ReceiveAllNotifications": false,
+    "LastLoginDate": "2024-02-12T21:37:02.553",
+    "CreatedDate": "2023-12-26T21:31:25.967",
+    "IsGuestUser": false
+  },
+  "BillToAddress": {
+    "UserId": null,
+    "AddressId": "f81c0000-569f-0050-13aa-08dc227fc4a3",
+    "DefaultShipMethod": null,
+    "Business": "Silver Star Communications",
+    "FirstName": "Hailey",
+    "LastName": "Jensen",
+    "Title": null,
+    "Address1": "PO Box 266",
+    "Address2": null,
+    "Address3": null,
+    "City": "Freedom",
+    "StateProvince": "WY",
+    "Postal": "8312.",
+    "Country": "US",
+    "Phone": "3078806493",
+    "Fax": null,
+    "Email": "hljensen@silverstar.net"
+  },
+  "BillToLocation": null,
+  "Location": null,
+  "CheckoutSitePaymentMethod": {
+    "SitePaymentMethodId": "71e47b99-2ee3-4779-ae01-8f8792d1abb5",
+    "Provider": "Nonintegrated",
+    "ServiceName": "Misc",
+    "MethodName": "Invoice",
+    "IsActive": true,
+    "CustomSiteMessage": null,
+    "LongDescription": null,
+    "UseRange": false,
+    "MinTotal": 0.00,
+    "MaxTotal": 0.00,
+    "SortOrder": 2,
+    "DisplayProviderError": false,
+    "CustomCheckoutErrorMessage": null,
+    "Implementor": null,
+    "AvailableToAllGroups": true,
+    "SiteStoreId": "5ec9f95d-a041-446c-b06b-60e13e1ffe01",
+    "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
+    "SubscriberPaymentMethodId": "68090000-569f-0050-3478-08db113d0488"
+  },
+  "SiteId": "5ec9f95d-a041-446c-b06b-60e13e1ffe01",
+  "SiteMISID": null,
+  "UserId": "08140000-569f-0050-ae0e-08dc065a03c2",
+  "LocationId": null,
+  "BillToAddressId": "f81c0000-569f-0050-13aa-08dc227fc4a3",
+  "BudgetId": null,
+  "Promos": [],
+  "FormFields": [],
+  "Payments": [],
+  "Shipments": [],
+  "GiftCertificates": []
+}
