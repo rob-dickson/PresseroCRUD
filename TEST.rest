@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ###
-GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{54180000-569F-0050-BF6E-08DC2F39592A}/Validate
+GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{AC150000-569F-0050-C678-08DC4DA6439B}/Validate
 
 
 
@@ -26,7 +26,7 @@ GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{54180000-569F-0050-
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Details
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/1077/Details HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 
 #******************* Orders - Get Order Items
@@ -34,7 +34,7 @@ Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/1011/Items HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 
 #******************* Orders - Get Order Payments
@@ -42,7 +42,7 @@ Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Payments HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 
 #******************* Orders - Get Order Shipments
@@ -50,7 +50,7 @@ Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/857/Shipments HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 
 #******************* Orders - Get Order CheckoutForm
@@ -58,7 +58,7 @@ Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/CheckoutForm HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 
 #******************* Orders - Import Orders (xlsx file)
@@ -74,24 +74,24 @@ Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
 
 ###
 POST https://admin.chi.v6.pressero.com/api/v2/orders/import/ HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 
 #******************* 
 ###
 Get https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/users HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 #******************* 
 ###
 GET https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/users/f0170000-569f-0050-264c-08dc1ceed00f  HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 
 #******************* 
 ###
 GET https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/Addressbook/f0170000-569f-0050-264c-08dc1ceed00f  HTTP/1.1
-Authorization: token 54180000-569F-0050-BF6E-08DC2F39592A
+Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 #******************* 
 
 
