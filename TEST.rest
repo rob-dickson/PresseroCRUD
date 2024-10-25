@@ -103,3 +103,24 @@ Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 ###
 POST http://admin.chi.v6.pressero.com/api/v2/Webhooks/OrderPlaced/SamplePayload  HTTP/1.1
 Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+
+
+
+
+###
+PUT https://admin.chi.v6.pressero.com/api/Calculators/7c060000-569f-0050-b6c8-08db3456b88a HTTP/1.1
+Authorization: token 34250000-569F-0050-9A68-08DCF518E636
+Content-Type: application/json
+
+{
+    "Calc": {
+        "CalculatorName": "test",
+        "Method": "Calculator"
+    },
+    "FileUrl": "https://www.alphagraphicsmarketing.com/SAL/Pricing/13716-SAL-AFrames.xlsx"
+}
+
+
+###
+GET https://admin.chi.v6.pressero.com/api/Calculators/7c060000-569f-0050-b6c8-08db3456b88a HTTP/1.1
+Authorization: token 34250000-569F-0050-9A68-08DCF518E636
