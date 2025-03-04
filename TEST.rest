@@ -8,8 +8,8 @@ POST https://adminc.pro-matters.com/api/V2/Authentication
 Content-Type: application/json
 
 {
-    "UserName": "APIAdmin",
-    "Password": "Ch33se1234",
+    "UserName": "",
+    "Password": "",
     "SubscriberId": "7b4c94dc-b43e-4a2d-833a-58a6456148a2",
     "ConsumerID": "1807430a-9b0c-4a10-8ad8-341616d058fa"
 }
@@ -26,7 +26,7 @@ GET https://admin.chi.v6.pressero.com/api/V2/Authentication/{AC150000-569F-0050-
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/Details
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/1077/Details HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 
 #******************* Orders - Get Order Items
@@ -34,7 +34,7 @@ Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/1011/Items HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 
 #******************* Orders - Get Order Payments
@@ -42,7 +42,7 @@ Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/Payments HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 
 #******************* Orders - Get Order Shipments
@@ -50,15 +50,14 @@ Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/857/Shipments HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
-
+Authorization: token 
 
 #******************* Orders - Get Order CheckoutForm
     # https://admin.chi.v6.pressero.com/api/V2/Orders/{orderNumber}/CheckoutForm
 
 ###
 GET https://admin.chi.v6.pressero.com/api/V2/Orders/600/CheckoutForm HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 
 #******************* Orders - Import Orders (xlsx file)
@@ -74,24 +73,24 @@ Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 ###
 POST https://admin.chi.v6.pressero.com/api/v2/orders/import/ HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 
 #******************* 
 ###
 Get https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/users HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 #******************* 
 ###
 GET https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/users/f0170000-569f-0050-264c-08dc1ceed00f  HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 
 #******************* 
 ###
 GET https://admin.chi.v6.pressero.com/api/site/sandbox-pw.pro-matters.com/Addressbook/f0170000-569f-0050-264c-08dc1ceed00f  HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 #******************* 
 
 
@@ -102,14 +101,14 @@ Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
 
 ###
 POST http://admin.chi.v6.pressero.com/api/v2/Webhooks/OrderPlaced/SamplePayload  HTTP/1.1
-Authorization: token AC150000-569F-0050-C678-08DC4DA6439B
+Authorization: token 
 
 
 
 
 ###
 PUT https://admin.chi.v6.pressero.com/api/Calculators/7c060000-569f-0050-b6c8-08db3456b88a HTTP/1.1
-Authorization: token 34250000-569F-0050-9A68-08DCF518E636
+Authorization: token 
 Content-Type: application/json
 
 {
@@ -123,4 +122,4 @@ Content-Type: application/json
 
 ###
 GET https://admin.chi.v6.pressero.com/api/Calculators/7c060000-569f-0050-b6c8-08db3456b88a HTTP/1.1
-Authorization: token 34250000-569F-0050-9A68-08DCF518E636
+Authorization: token 
